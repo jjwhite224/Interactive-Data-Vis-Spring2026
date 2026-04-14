@@ -149,8 +149,8 @@ Plot.plot({
 ```js
 Plot.plot({
   title: "Average Entrances: Event vs Non-Event Days",
-  width: 500,
-  height: 400,
+  width: 800,
+  height: 600,
   marginLeft: 180,
 marginRight: 40,
 marginTop: 40,
@@ -196,8 +196,6 @@ Plot.plot({
   marginTop: 40,
   marginBottom: 40,
 
-  x: { label: "Avg response time (minutes)" },
-  y: { label: null },
 
   color: {
     domain: d3.extent(responseByStation, d => d.avg_response),
@@ -210,7 +208,8 @@ Plot.plot({
       y: "station",
       fill: "avg_response",
       sort: { y: "x", reverse: true },
-      tip: true
+      tip:true
+      
     }),
     Plot.ruleX(
       [d3.mean(responseByStation, d => d.avg_response)],
