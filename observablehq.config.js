@@ -14,7 +14,10 @@ export default {
         { name: "Intro to Web Development", path: "/lessons/1_intro_to_web_development" },
         { name: "Working in Cursor", path: "/lessons/2_working_in_cursor" },
         { name: "Intro to Observable Framework", path: "/lessons/3_intro_to_observable_framework" },
-        // { name: "Intro to Observable Plot", path: "/lessons/4_intro_to_observable_plot" },
+        { name: "Confirming Spring Upstream", path: "/lessons/4_confirming_spring_upstream" },
+        { name: "Intro to Observable Plot", path: "/lessons/5_intro_to_observable_plot" },
+        { name: "Transforms and Data Manipulation", path: "/lessons/6_transforms_and_data_manipulation" },
+        { name: "Data Types, Scales, Marks", path: "/lessons/7_data_types_scales_marks" },
       ]
     },
     {
@@ -37,8 +40,8 @@ export default {
       name: "Lab 2: Subway Staffing",
       open: false,
       pages: [
-        // { name: "Instructions", path: "/lab_2/readme" },
-        // { name: "Dashboard", path: "/lab_2/index" },
+        { name: "Instructions", path: "/lab_2/readme" },
+        { name: "Dashboard", path: "/lab_2/index" },
       ],
     },
     {
