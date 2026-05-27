@@ -1,0 +1,57 @@
+﻿fixture_order_desc,fixture_id,sm_fixture_id,season,date_label,date,league_id,league_name,venue_code,venue,opponent,score_text,score_label,team_xg,source_url
+56,1193039,19464492,2025/2026,25/26 10 Aug,2025-08-10,7,Community Shield,a,Away,Crystal Palace,2-2,a 2-2 P,0.0,https://playerstats.football/premier-league/liverpool/xg
+55,1378727,19427455,2025/2026,25/26 15 Aug,2025-08-15,1,Premier League,h,Home,AFC Bournemouth,4-2,h 4-2,2.26,https://playerstats.football/premier-league/liverpool/xg
+54,1378725,19427473,2025/2026,25/26 25 Aug,2025-08-25,1,Premier League,a,Away,Newcastle United,2-3,a 2-3,0.47,https://playerstats.football/premier-league/liverpool/xg
+53,1378820,19427479,2025/2026,25/26 31 Aug,2025-08-31,1,Premier League,h,Home,Arsenal,1-0,h 1-0,0.82,https://playerstats.football/premier-league/liverpool/xg
+52,1378793,19427488,2025/2026,25/26 14 Sep,2025-09-14,1,Premier League,a,Away,Burnley,0-1,a 0-1,3.4,https://playerstats.football/premier-league/liverpool/xg
+51,1397014,19568539,2025/2026,25/26 17 Sep,2025-09-17,5,Champions League,h,Home,Atlético Madrid,3-2,h 3-2,3.46,https://playerstats.football/premier-league/liverpool/xg
+50,1379121,19427500,2025/2026,25/26 20 Sep,2025-09-20,1,Premier League,h,Home,Everton,2-1,h 2-1,1.16,https://playerstats.football/premier-league/liverpool/xg
+49,1218466,19572904,2025/2026,25/26 23 Sep,2025-09-23,8,Carabao Cup,h,Home,Southampton,2-1,h 2-1,1.27,https://playerstats.football/premier-league/liverpool/xg
+48,1379139,19427508,2025/2026,25/26 27 Sep,2025-09-27,1,Premier League,a,Away,Crystal Palace,2-1,a 2-1,2.26,https://playerstats.football/premier-league/liverpool/xg
+47,1396787,19568522,2025/2026,25/26 30 Sep,2025-09-30,5,Champions League,a,Away,Galatasaray,1-0,a 1-0,1.71,https://playerstats.football/premier-league/liverpool/xg
+46,1378908,19427519,2025/2026,25/26 04 Oct,2025-10-04,1,Premier League,a,Away,Chelsea,2-1,a 2-1,1.9,https://playerstats.football/premier-league/liverpool/xg
+45,1378881,19427529,2025/2026,25/26 19 Oct,2025-10-19,1,Premier League,h,Home,Manchester United,1-2,h 1-2,2.2,https://playerstats.football/premier-league/liverpool/xg
+44,1397134,19568510,2025/2026,25/26 22 Oct,2025-10-22,5,Champions League,a,Away,Eintracht Frankfurt,1-5,a 1-5,2.48,https://playerstats.football/premier-league/liverpool/xg
+43,1378639,19427539,2025/2026,25/26 25 Oct,2025-10-25,1,Premier League,a,Away,Brentford,3-2,a 3-2,2.51,https://playerstats.football/premier-league/liverpool/xg
+42,1290118,19585905,2025/2026,25/26 29 Oct,2025-10-29,8,Carabao Cup,h,Home,Crystal Palace,0-3,h 0-3,0.42,https://playerstats.football/premier-league/liverpool/xg
+41,1378744,19427550,2025/2026,25/26 01 Nov,2025-11-01,1,Premier League,h,Home,Aston Villa,2-0,h 2-0,1.09,https://playerstats.football/premier-league/liverpool/xg
+40,1397140,19568538,2025/2026,25/26 04 Nov,2025-11-04,5,Champions League,h,Home,Real Madrid,1-0,h 1-0,2.33,https://playerstats.football/premier-league/liverpool/xg
+39,1378930,19427561,2025/2026,25/26 09 Nov,2025-11-09,1,Premier League,a,Away,Manchester City,3-0,a 3-0,0.85,https://playerstats.football/premier-league/liverpool/xg
+38,1378974,19427572,2025/2026,25/26 22 Nov,2025-11-22,1,Premier League,h,Home,Nottingham Forest,0-3,h 0-3,2.15,https://playerstats.football/premier-league/liverpool/xg
+37,1396979,19568540,2025/2026,25/26 26 Nov,2025-11-26,5,Champions League,h,Home,PSV,1-4,h 1-4,2.62,https://playerstats.football/premier-league/liverpool/xg
+36,1378854,19427585,2025/2026,25/26 30 Nov,2025-11-30,1,Premier League,a,Away,West Ham United,0-2,a 0-2,1.29,https://playerstats.football/premier-league/liverpool/xg
+35,1378637,19427592,2025/2026,25/26 03 Dec,2025-12-03,1,Premier League,h,Home,Sunderland,1-1,h 1-1,1.57,https://playerstats.football/premier-league/liverpool/xg
+34,1378928,19427601,2025/2026,25/26 06 Dec,2025-12-06,1,Premier League,a,Away,Leeds United,3-3,a 3-3,1.6,https://playerstats.football/premier-league/liverpool/xg
+33,1396884,19568526,2025/2026,25/26 09 Dec,2025-12-09,5,Champions League,a,Away,Inter,0-1,a 0-1,1.42,https://playerstats.football/premier-league/liverpool/xg
+32,1378936,19427611,2025/2026,25/26 13 Dec,2025-12-13,1,Premier League,h,Home,Brighton & Hove Albion,2-0,h 2-0,2.54,https://playerstats.football/premier-league/liverpool/xg
+31,1378949,19427624,2025/2026,25/26 20 Dec,2025-12-20,1,Premier League,a,Away,Tottenham Hotspur,1-2,a 1-2,0.93,https://playerstats.football/premier-league/liverpool/xg
+30,1379105,19427631,2025/2026,25/26 27 Dec,2025-12-27,1,Premier League,h,Home,Wolverhampton Wanderers,2-1,h 2-1,1.74,https://playerstats.football/premier-league/liverpool/xg
+29,1378612,19427641,2025/2026,25/26 01 Jan,2026-01-01,1,Premier League,h,Home,Leeds United,0-0,h 0-0,2.34,https://playerstats.football/premier-league/liverpool/xg
+28,1379083,19427650,2025/2026,25/26 04 Jan,2026-01-04,1,Premier League,a,Away,Fulham,2-2,a 2-2,1.41,https://playerstats.football/premier-league/liverpool/xg
+27,1378873,19427656,2025/2026,25/26 08 Jan,2026-01-08,1,Premier League,a,Away,Arsenal,0-0,a 0-0,0.38,https://playerstats.football/premier-league/liverpool/xg
+26,1344436,19615693,2025/2026,25/26 12 Jan,2026-01-12,300,FA Cup,h,Home,Barnsley,4-1,h 4-1,2.08,https://playerstats.football/premier-league/liverpool/xg
+25,1378764,19427670,2025/2026,25/26 17 Jan,2026-01-17,1,Premier League,h,Home,Burnley,1-1,h 1-1,3.57,https://playerstats.football/premier-league/liverpool/xg
+24,1397227,19568558,2025/2026,25/26 21 Jan,2026-01-21,5,Champions League,a,Away,Olympique Marseille,0-3,a 0-3,1.57,https://playerstats.football/premier-league/liverpool/xg
+23,1378641,19427677,2025/2026,25/26 24 Jan,2026-01-24,1,Premier League,a,Away,AFC Bournemouth,3-2,a 3-2,1.15,https://playerstats.football/premier-league/liverpool/xg
+22,1396913,19568541,2025/2026,25/26 28 Jan,2026-01-28,5,Champions League,h,Home,Qarabağ,6-0,h 6-0,5.87,https://playerstats.football/premier-league/liverpool/xg
+21,1378995,19427690,2025/2026,25/26 31 Jan,2026-01-31,1,Premier League,h,Home,Newcastle United,4-1,h 4-1,1.94,https://playerstats.football/premier-league/liverpool/xg
+20,1378700,19427702,2025/2026,25/26 08 Feb,2026-02-08,1,Premier League,h,Home,Manchester City,1-2,h 1-2,1.06,https://playerstats.football/premier-league/liverpool/xg
+19,1378607,19427713,2025/2026,25/26 11 Feb,2026-02-11,1,Premier League,a,Away,Sunderland,0-1,a 0-1,3.79,https://playerstats.football/premier-league/liverpool/xg
+18,1374766,19645325,2025/2026,25/26 14 Feb,2026-02-14,300,FA Cup,h,Home,Brighton & Hove Albion,3-0,h 3-0,3.76,https://playerstats.football/premier-league/liverpool/xg
+17,1398004,19427151,2025/2026,25/26 22 Feb,2026-02-22,1,Premier League,a,Away,Nottingham Forest,0-1,a 0-1,2.7,https://playerstats.football/premier-league/liverpool/xg
+16,1405260,19427161,2025/2026,25/26 28 Feb,2026-02-28,1,Premier League,h,Home,West Ham United,5-2,h 5-2,2.21,https://playerstats.football/premier-league/liverpool/xg
+15,1407609,19427174,2025/2026,25/26 03 Mar,2026-03-03,1,Premier League,a,Away,Wolverhampton Wanderers,2-1,a 2-1,1.98,https://playerstats.football/premier-league/liverpool/xg
+14,1413001,19676918,2025/2026,25/26 06 Mar,2026-03-06,300,FA Cup,a,Away,Wolverhampton Wanderers,1-3,a 1-3,1.89,https://playerstats.football/premier-league/liverpool/xg
+13,1415031,19662568,2025/2026,25/26 10 Mar,2026-03-10,5,Champions League,a,Away,Galatasaray,1-0,a 1-0,1.17,https://playerstats.football/premier-league/liverpool/xg
+12,1422066,19427180,2025/2026,25/26 15 Mar,2026-03-15,1,Premier League,h,Home,Tottenham Hotspur,1-1,h 1-1,1.66,https://playerstats.football/premier-league/liverpool/xg
+11,1426145,19662560,2025/2026,25/26 18 Mar,2026-03-18,5,Champions League,h,Home,Galatasaray,4-0,h 4-0,4.27,https://playerstats.football/premier-league/liverpool/xg
+10,1429079,19427187,2025/2026,25/26 21 Mar,2026-03-21,1,Premier League,a,Away,Brighton & Hove Albion,2-1,a 2-1,0.87,https://playerstats.football/premier-league/liverpool/xg
+9,1443072,19687560,2025/2026,25/26 04 Apr,2026-04-04,300,FA Cup,a,Away,Manchester City,4-0,a 4-0,1.65,https://playerstats.football/premier-league/liverpool/xg
+8,1447863,19683236,2025/2026,25/26 08 Apr,2026-04-08,5,Champions League,a,Away,Paris Saint Germain,2-0,a 2-0,0.25,https://playerstats.football/premier-league/liverpool/xg
+7,1451031,19427197,2025/2026,25/26 11 Apr,2026-04-11,1,Premier League,h,Home,Fulham,2-0,h 2-0,1.78,https://playerstats.football/premier-league/liverpool/xg
+6,1452845,19683229,2025/2026,25/26 14 Apr,2026-04-14,5,Champions League,h,Home,Paris Saint Germain,0-2,h 0-2,2.58,https://playerstats.football/premier-league/liverpool/xg
+5,1458937,19427732,2025/2026,25/26 19 Apr,2026-04-19,1,Premier League,a,Away,Everton,1-2,a 1-2,1.0,https://playerstats.football/premier-league/liverpool/xg
+4,1466441,19427201,2025/2026,25/26 25 Apr,2026-04-25,1,Premier League,h,Home,Crystal Palace,3-1,h 3-1,0.91,https://playerstats.football/premier-league/liverpool/xg
+3,1475068,19427213,2025/2026,25/26 03 May,2026-05-03,1,Premier League,a,Away,Manchester United,3-2,a 3-2,1.15,https://playerstats.football/premier-league/liverpool/xg
+2,1480645,19427220,2025/2026,25/26 09 May,2026-05-09,1,Premier League,h,Home,Chelsea,1-1,h 1-1,0.56,https://playerstats.football/premier-league/liverpool/xg
+1,1487202,19427227,2025/2026,25/26 15 May,2026-05-15,1,Premier League,a,Away,Aston Villa,4-2,a 4-2,1.11,https://playerstats.football/premier-league/liverpool/xg

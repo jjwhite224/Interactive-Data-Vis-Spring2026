@@ -1,0 +1,193 @@
+player,nation,position,primary_position,metric,value,metric_label
+Virgil van Dijk,nl NED,DF,DF,goals,4.0,Goals
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,goals,6.0,Goals
+Ibrahima Konaté,fr FRA,DF,DF,goals,1.0,Goals
+Ryan Gravenberch,nl NED,MF,MF,goals,5.0,Goals
+Cody Gakpo,nl NED,"MF,FW",MF,goals,7.0,Goals
+Alexis Mac Allister,ar ARG,MF,MF,goals,2.0,Goals
+Florian Wirtz,de GER,MF,MF,goals,5.0,Goals
+Alisson,br BRA,GK,GK,goals,0.0,Goals
+Milos Kerkez,hu HUN,DF,DF,goals,2.0,Goals
+Mohamed Salah,eg EGY,MF,MF,goals,7.0,Goals
+Hugo Ekitike,fr FRA,FW,FW,goals,11.0,Goals
+Curtis Jones,eng ENG,"MF,DF",MF,goals,0.0,Goals
+Andrew Robertson,sct SCO,DF,DF,goals,1.0,Goals
+Jeremie Frimpong,nl NED,"DF,MF",DF,goals,0.0,Goals
+Conor Bradley,nir NIR,DF,DF,goals,0.0,Goals
+Giorgi Mamardashvili,ge GEO,GK,GK,goals,0.0,Goals
+Alexander Isak,se SWE,FW,FW,goals,3.0,Goals
+Joe Gomez,eng ENG,DF,DF,goals,0.0,Goals
+Rio Ngumoha,eng ENG,MF,MF,goals,2.0,Goals
+Federico Chiesa,it ITA,MF,MF,goals,2.0,Goals
+Freddie Woodman,eng ENG,GK,GK,goals,0.0,Goals
+Wataru Endo,jp JPN,DF,DF,goals,0.0,Goals
+Trey Nyoni,eng ENG,MF,MF,goals,0.0,Goals
+Harvey Elliott,eng ENG,"FW,MF",FW,goals,0.0,Goals
+Virgil van Dijk,nl NED,DF,DF,assists,0.0,Assists
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,assists,5.0,Assists
+Ibrahima Konaté,fr FRA,DF,DF,assists,0.0,Assists
+Ryan Gravenberch,nl NED,MF,MF,assists,3.0,Assists
+Cody Gakpo,nl NED,"MF,FW",MF,assists,5.0,Assists
+Alexis Mac Allister,ar ARG,MF,MF,assists,4.0,Assists
+Florian Wirtz,de GER,MF,MF,assists,3.0,Assists
+Alisson,br BRA,GK,GK,assists,0.0,Assists
+Milos Kerkez,hu HUN,DF,DF,assists,1.0,Assists
+Mohamed Salah,eg EGY,MF,MF,assists,6.0,Assists
+Hugo Ekitike,fr FRA,FW,FW,assists,4.0,Assists
+Curtis Jones,eng ENG,"MF,DF",MF,assists,2.0,Assists
+Andrew Robertson,sct SCO,DF,DF,assists,0.0,Assists
+Jeremie Frimpong,nl NED,"DF,MF",DF,assists,1.0,Assists
+Conor Bradley,nir NIR,DF,DF,assists,1.0,Assists
+Giorgi Mamardashvili,ge GEO,GK,GK,assists,0.0,Assists
+Alexander Isak,se SWE,FW,FW,assists,1.0,Assists
+Joe Gomez,eng ENG,DF,DF,assists,2.0,Assists
+Rio Ngumoha,eng ENG,MF,MF,assists,1.0,Assists
+Federico Chiesa,it ITA,MF,MF,assists,1.0,Assists
+Freddie Woodman,eng ENG,GK,GK,assists,0.0,Assists
+Wataru Endo,jp JPN,DF,DF,assists,1.0,Assists
+Trey Nyoni,eng ENG,MF,MF,assists,0.0,Assists
+Harvey Elliott,eng ENG,"FW,MF",FW,assists,0.0,Assists
+Virgil van Dijk,nl NED,DF,DF,goals_assists,4.0,Goals Assists
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,goals_assists,11.0,Goals Assists
+Ibrahima Konaté,fr FRA,DF,DF,goals_assists,1.0,Goals Assists
+Ryan Gravenberch,nl NED,MF,MF,goals_assists,8.0,Goals Assists
+Cody Gakpo,nl NED,"MF,FW",MF,goals_assists,12.0,Goals Assists
+Alexis Mac Allister,ar ARG,MF,MF,goals_assists,6.0,Goals Assists
+Florian Wirtz,de GER,MF,MF,goals_assists,8.0,Goals Assists
+Alisson,br BRA,GK,GK,goals_assists,0.0,Goals Assists
+Milos Kerkez,hu HUN,DF,DF,goals_assists,3.0,Goals Assists
+Mohamed Salah,eg EGY,MF,MF,goals_assists,13.0,Goals Assists
+Hugo Ekitike,fr FRA,FW,FW,goals_assists,15.0,Goals Assists
+Curtis Jones,eng ENG,"MF,DF",MF,goals_assists,2.0,Goals Assists
+Andrew Robertson,sct SCO,DF,DF,goals_assists,1.0,Goals Assists
+Jeremie Frimpong,nl NED,"DF,MF",DF,goals_assists,1.0,Goals Assists
+Conor Bradley,nir NIR,DF,DF,goals_assists,1.0,Goals Assists
+Giorgi Mamardashvili,ge GEO,GK,GK,goals_assists,0.0,Goals Assists
+Alexander Isak,se SWE,FW,FW,goals_assists,4.0,Goals Assists
+Joe Gomez,eng ENG,DF,DF,goals_assists,2.0,Goals Assists
+Rio Ngumoha,eng ENG,MF,MF,goals_assists,3.0,Goals Assists
+Federico Chiesa,it ITA,MF,MF,goals_assists,3.0,Goals Assists
+Freddie Woodman,eng ENG,GK,GK,goals_assists,0.0,Goals Assists
+Wataru Endo,jp JPN,DF,DF,goals_assists,1.0,Goals Assists
+Trey Nyoni,eng ENG,MF,MF,goals_assists,0.0,Goals Assists
+Harvey Elliott,eng ENG,"FW,MF",FW,goals_assists,0.0,Goals Assists
+Virgil van Dijk,nl NED,DF,DF,shots,27.0,Shots
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,shots,68.0,Shots
+Ibrahima Konaté,fr FRA,DF,DF,shots,10.0,Shots
+Ryan Gravenberch,nl NED,MF,MF,shots,35.0,Shots
+Cody Gakpo,nl NED,"MF,FW",MF,shots,83.0,Shots
+Alexis Mac Allister,ar ARG,MF,MF,shots,47.0,Shots
+Florian Wirtz,de GER,MF,MF,shots,48.0,Shots
+Alisson,br BRA,GK,GK,shots,0.0,Shots
+Milos Kerkez,hu HUN,DF,DF,shots,8.0,Shots
+Mohamed Salah,eg EGY,MF,MF,shots,64.0,Shots
+Hugo Ekitike,fr FRA,FW,FW,shots,65.0,Shots
+Curtis Jones,eng ENG,"MF,DF",MF,shots,19.0,Shots
+Andrew Robertson,sct SCO,DF,DF,shots,9.0,Shots
+Jeremie Frimpong,nl NED,"DF,MF",DF,shots,10.0,Shots
+Conor Bradley,nir NIR,DF,DF,shots,6.0,Shots
+Giorgi Mamardashvili,ge GEO,GK,GK,shots,0.0,Shots
+Alexander Isak,se SWE,FW,FW,shots,17.0,Shots
+Joe Gomez,eng ENG,DF,DF,shots,3.0,Shots
+Rio Ngumoha,eng ENG,MF,MF,shots,11.0,Shots
+Federico Chiesa,it ITA,MF,MF,shots,16.0,Shots
+Freddie Woodman,eng ENG,GK,GK,shots,0.0,Shots
+Wataru Endo,jp JPN,DF,DF,shots,1.0,Shots
+Trey Nyoni,eng ENG,MF,MF,shots,1.0,Shots
+Harvey Elliott,eng ENG,"FW,MF",FW,shots,0.0,Shots
+Virgil van Dijk,nl NED,DF,DF,shots_on_target,12.0,Shots On Target
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,shots_on_target,21.0,Shots On Target
+Ibrahima Konaté,fr FRA,DF,DF,shots_on_target,3.0,Shots On Target
+Ryan Gravenberch,nl NED,MF,MF,shots_on_target,11.0,Shots On Target
+Cody Gakpo,nl NED,"MF,FW",MF,shots_on_target,21.0,Shots On Target
+Alexis Mac Allister,ar ARG,MF,MF,shots_on_target,11.0,Shots On Target
+Florian Wirtz,de GER,MF,MF,shots_on_target,17.0,Shots On Target
+Alisson,br BRA,GK,GK,shots_on_target,0.0,Shots On Target
+Milos Kerkez,hu HUN,DF,DF,shots_on_target,2.0,Shots On Target
+Mohamed Salah,eg EGY,MF,MF,shots_on_target,17.0,Shots On Target
+Hugo Ekitike,fr FRA,FW,FW,shots_on_target,19.0,Shots On Target
+Curtis Jones,eng ENG,"MF,DF",MF,shots_on_target,6.0,Shots On Target
+Andrew Robertson,sct SCO,DF,DF,shots_on_target,3.0,Shots On Target
+Jeremie Frimpong,nl NED,"DF,MF",DF,shots_on_target,2.0,Shots On Target
+Conor Bradley,nir NIR,DF,DF,shots_on_target,0.0,Shots On Target
+Giorgi Mamardashvili,ge GEO,GK,GK,shots_on_target,0.0,Shots On Target
+Alexander Isak,se SWE,FW,FW,shots_on_target,6.0,Shots On Target
+Joe Gomez,eng ENG,DF,DF,shots_on_target,1.0,Shots On Target
+Rio Ngumoha,eng ENG,MF,MF,shots_on_target,6.0,Shots On Target
+Federico Chiesa,it ITA,MF,MF,shots_on_target,4.0,Shots On Target
+Freddie Woodman,eng ENG,GK,GK,shots_on_target,0.0,Shots On Target
+Wataru Endo,jp JPN,DF,DF,shots_on_target,0.0,Shots On Target
+Trey Nyoni,eng ENG,MF,MF,shots_on_target,0.0,Shots On Target
+Harvey Elliott,eng ENG,"FW,MF",FW,shots_on_target,0.0,Shots On Target
+Virgil van Dijk,nl NED,DF,DF,shots_per90,0.75,Shots Per90
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,shots_per90,2.01,Shots Per90
+Ibrahima Konaté,fr FRA,DF,DF,shots_per90,0.31,Shots Per90
+Ryan Gravenberch,nl NED,MF,MF,shots_per90,1.11,Shots Per90
+Cody Gakpo,nl NED,"MF,FW",MF,shots_per90,2.9,Shots Per90
+Alexis Mac Allister,ar ARG,MF,MF,shots_per90,1.71,Shots Per90
+Florian Wirtz,de GER,MF,MF,shots_per90,1.85,Shots Per90
+Alisson,br BRA,GK,GK,shots_per90,0.0,Shots Per90
+Milos Kerkez,hu HUN,DF,DF,shots_per90,0.33,Shots Per90
+Mohamed Salah,eg EGY,MF,MF,shots_per90,2.8,Shots Per90
+Hugo Ekitike,fr FRA,FW,FW,shots_per90,3.24,Shots Per90
+Curtis Jones,eng ENG,"MF,DF",MF,shots_per90,0.97,Shots Per90
+Andrew Robertson,sct SCO,DF,DF,shots_per90,0.74,Shots Per90
+Jeremie Frimpong,nl NED,"DF,MF",DF,shots_per90,0.88,Shots Per90
+Conor Bradley,nir NIR,DF,DF,shots_per90,0.58,Shots Per90
+Giorgi Mamardashvili,ge GEO,GK,GK,shots_per90,0.0,Shots Per90
+Alexander Isak,se SWE,FW,FW,shots_per90,2.19,Shots Per90
+Joe Gomez,eng ENG,DF,DF,shots_per90,0.5,Shots Per90
+Rio Ngumoha,eng ENG,MF,MF,shots_per90,2.49,Shots Per90
+Federico Chiesa,it ITA,MF,MF,shots_per90,4.59,Shots Per90
+Freddie Woodman,eng ENG,GK,GK,shots_per90,0.0,Shots Per90
+Wataru Endo,jp JPN,DF,DF,shots_per90,0.51,Shots Per90
+Trey Nyoni,eng ENG,MF,MF,shots_per90,5.63,Shots Per90
+Harvey Elliott,eng ENG,"FW,MF",FW,shots_per90,0.0,Shots Per90
+Virgil van Dijk,nl NED,DF,DF,goals_assists_per90,0.11,Goals Assists Per90
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,goals_assists_per90,0.32,Goals Assists Per90
+Ibrahima Konaté,fr FRA,DF,DF,goals_assists_per90,0.03,Goals Assists Per90
+Ryan Gravenberch,nl NED,MF,MF,goals_assists_per90,0.25,Goals Assists Per90
+Cody Gakpo,nl NED,"MF,FW",MF,goals_assists_per90,0.42,Goals Assists Per90
+Alexis Mac Allister,ar ARG,MF,MF,goals_assists_per90,0.22,Goals Assists Per90
+Florian Wirtz,de GER,MF,MF,goals_assists_per90,0.31,Goals Assists Per90
+Alisson,br BRA,GK,GK,goals_assists_per90,0.0,Goals Assists Per90
+Milos Kerkez,hu HUN,DF,DF,goals_assists_per90,0.13,Goals Assists Per90
+Mohamed Salah,eg EGY,MF,MF,goals_assists_per90,0.57,Goals Assists Per90
+Hugo Ekitike,fr FRA,FW,FW,goals_assists_per90,0.75,Goals Assists Per90
+Curtis Jones,eng ENG,"MF,DF",MF,goals_assists_per90,0.1,Goals Assists Per90
+Andrew Robertson,sct SCO,DF,DF,goals_assists_per90,0.08,Goals Assists Per90
+Jeremie Frimpong,nl NED,"DF,MF",DF,goals_assists_per90,0.09,Goals Assists Per90
+Conor Bradley,nir NIR,DF,DF,goals_assists_per90,0.1,Goals Assists Per90
+Giorgi Mamardashvili,ge GEO,GK,GK,goals_assists_per90,0.0,Goals Assists Per90
+Alexander Isak,se SWE,FW,FW,goals_assists_per90,0.52,Goals Assists Per90
+Joe Gomez,eng ENG,DF,DF,goals_assists_per90,0.33,Goals Assists Per90
+Rio Ngumoha,eng ENG,MF,MF,goals_assists_per90,0.68,Goals Assists Per90
+Federico Chiesa,it ITA,MF,MF,goals_assists_per90,0.86,Goals Assists Per90
+Freddie Woodman,eng ENG,GK,GK,goals_assists_per90,0.0,Goals Assists Per90
+Wataru Endo,jp JPN,DF,DF,goals_assists_per90,0.51,Goals Assists Per90
+Trey Nyoni,eng ENG,MF,MF,goals_assists_per90,0.0,Goals Assists Per90
+Harvey Elliott,eng ENG,"FW,MF",FW,goals_assists_per90,0.0,Goals Assists Per90
+Virgil van Dijk,nl NED,DF,DF,minutes,3240.0,Minutes
+Dominik Szoboszlai,hu HUN,"MF,DF",MF,minutes,3051.0,Minutes
+Ibrahima Konaté,fr FRA,DF,DF,minutes,2912.0,Minutes
+Ryan Gravenberch,nl NED,MF,MF,minutes,2845.0,Minutes
+Cody Gakpo,nl NED,"MF,FW",MF,minutes,2574.0,Minutes
+Alexis Mac Allister,ar ARG,MF,MF,minutes,2478.0,Minutes
+Florian Wirtz,de GER,MF,MF,minutes,2335.0,Minutes
+Alisson,br BRA,GK,GK,minutes,2250.0,Minutes
+Milos Kerkez,hu HUN,DF,DF,minutes,2159.0,Minutes
+Mohamed Salah,eg EGY,MF,MF,minutes,2056.0,Minutes
+Hugo Ekitike,fr FRA,FW,FW,minutes,1803.0,Minutes
+Curtis Jones,eng ENG,"MF,DF",MF,minutes,1757.0,Minutes
+Andrew Robertson,sct SCO,DF,DF,minutes,1094.0,Minutes
+Jeremie Frimpong,nl NED,"DF,MF",DF,minutes,1023.0,Minutes
+Conor Bradley,nir NIR,DF,DF,minutes,929.0,Minutes
+Giorgi Mamardashvili,ge GEO,GK,GK,minutes,777.0,Minutes
+Alexander Isak,se SWE,FW,FW,minutes,699.0,Minutes
+Joe Gomez,eng ENG,DF,DF,minutes,540.0,Minutes
+Rio Ngumoha,eng ENG,MF,MF,minutes,398.0,Minutes
+Federico Chiesa,it ITA,MF,MF,minutes,314.0,Minutes
+Freddie Woodman,eng ENG,GK,GK,minutes,213.0,Minutes
+Wataru Endo,jp JPN,DF,DF,minutes,175.0,Minutes
+Trey Nyoni,eng ENG,MF,MF,minutes,16.0,Minutes
+Harvey Elliott,eng ENG,"FW,MF",FW,minutes,1.0,Minutes

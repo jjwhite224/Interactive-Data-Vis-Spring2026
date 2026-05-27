@@ -1,0 +1,12 @@
+file_name,rows,description,source_file
+liverpool_matches.csv,38,"All Premier League fixtures in the uploaded match-log HTML, with upcoming fixtures marked is_played = false.","Liverpool Scores and Fixtures, Premier League _ FBref.com.html"
+liverpool_matches_completed.csv,36,"Completed matches only. Best file for timelines, possession scatterplots, and result analysis.","Liverpool Scores and Fixtures, Premier League _ FBref.com.html"
+liverpool_match_metrics_long.csv,180,Long-format match metrics for heatmaps/matrix views.,"Liverpool Scores and Fixtures, Premier League _ FBref.com.html"
+liverpool_team_venue_summary.csv,2,Home/Away summary for dumbbell or comparison charts.,"Liverpool Scores and Fixtures, Premier League _ FBref.com.html"
+liverpool_players.csv,32,Merged simplified player table for dashboard charts.,"Liverpool Stats, Premier League _ FBref.com.html"
+liverpool_players_long.csv,660,Long-format player metrics; useful for faceting and for meeting the BYO-data row-count expectation.,"Liverpool Stats, Premier League _ FBref.com.html"
+liverpool_player_attack_profiles_long.csv,192,Smaller long-format table for player attacking-profile small multiples.,"Liverpool Stats, Premier League _ FBref.com.html"
+liverpool_players_standard.csv,32,Cleaned FBref standard player table.,"Liverpool Stats, Premier League _ FBref.com.html"
+liverpool_players_shooting.csv,24,Cleaned FBref shooting player table.,"Liverpool Stats, Premier League _ FBref.com.html"
+liverpool_players_playing_time.csv,32,Cleaned FBref playing-time player table.,"Liverpool Stats, Premier League _ FBref.com.html"
+liverpool_players_misc.csv,24,Cleaned FBref miscellaneous player table.,"Liverpool Stats, Premier League _ FBref.com.html"

@@ -1,0 +1,181 @@
+match_number,matchweek,date,venue,opponent,result,result_label,metric,value,metric_label
+1,1.0,2025-08-15,Home,Bournemouth,W,Win,goals_for,4.0,Goals For
+2,2.0,2025-08-25,Away,Newcastle United,W,Win,goals_for,3.0,Goals For
+3,3.0,2025-08-31,Home,Arsenal,W,Win,goals_for,1.0,Goals For
+4,4.0,2025-09-14,Away,Burnley,W,Win,goals_for,1.0,Goals For
+5,5.0,2025-09-20,Home,Everton,W,Win,goals_for,2.0,Goals For
+6,6.0,2025-09-27,Away,Crystal Palace,L,Loss,goals_for,1.0,Goals For
+7,7.0,2025-10-04,Away,Chelsea,L,Loss,goals_for,1.0,Goals For
+8,8.0,2025-10-19,Home,Manchester Utd,L,Loss,goals_for,1.0,Goals For
+9,9.0,2025-10-25,Away,Brentford,L,Loss,goals_for,2.0,Goals For
+10,10.0,2025-11-01,Home,Aston Villa,W,Win,goals_for,2.0,Goals For
+11,11.0,2025-11-09,Away,Manchester City,L,Loss,goals_for,0.0,Goals For
+12,12.0,2025-11-22,Home,Nottingham Forest,L,Loss,goals_for,0.0,Goals For
+13,13.0,2025-11-30,Away,West Ham United,W,Win,goals_for,2.0,Goals For
+14,14.0,2025-12-03,Home,Sunderland,D,Draw,goals_for,1.0,Goals For
+15,15.0,2025-12-06,Away,Leeds United,D,Draw,goals_for,3.0,Goals For
+16,16.0,2025-12-13,Home,Brighton,W,Win,goals_for,2.0,Goals For
+17,17.0,2025-12-20,Away,Tottenham Hotspur,W,Win,goals_for,2.0,Goals For
+18,18.0,2025-12-27,Home,Wolves,W,Win,goals_for,2.0,Goals For
+19,19.0,2026-01-01,Home,Leeds United,D,Draw,goals_for,0.0,Goals For
+20,20.0,2026-01-04,Away,Fulham,D,Draw,goals_for,2.0,Goals For
+21,21.0,2026-01-08,Away,Arsenal,D,Draw,goals_for,0.0,Goals For
+22,22.0,2026-01-17,Home,Burnley,D,Draw,goals_for,1.0,Goals For
+23,23.0,2026-01-24,Away,Bournemouth,L,Loss,goals_for,2.0,Goals For
+24,24.0,2026-01-31,Home,Newcastle United,W,Win,goals_for,4.0,Goals For
+25,25.0,2026-02-08,Home,Manchester City,L,Loss,goals_for,1.0,Goals For
+26,26.0,2026-02-11,Away,Sunderland,W,Win,goals_for,1.0,Goals For
+27,27.0,2026-02-22,Away,Nottingham Forest,W,Win,goals_for,1.0,Goals For
+28,28.0,2026-02-28,Home,West Ham United,W,Win,goals_for,5.0,Goals For
+29,29.0,2026-03-03,Away,Wolves,L,Loss,goals_for,1.0,Goals For
+30,30.0,2026-03-15,Home,Tottenham Hotspur,D,Draw,goals_for,1.0,Goals For
+31,31.0,2026-03-21,Away,Brighton,L,Loss,goals_for,1.0,Goals For
+32,32.0,2026-04-11,Home,Fulham,W,Win,goals_for,2.0,Goals For
+33,33.0,2026-04-19,Away,Everton,W,Win,goals_for,2.0,Goals For
+34,34.0,2026-04-25,Home,Crystal Palace,W,Win,goals_for,3.0,Goals For
+35,35.0,2026-05-03,Away,Manchester Utd,L,Loss,goals_for,2.0,Goals For
+36,36.0,2026-05-09,Home,Chelsea,D,Draw,goals_for,1.0,Goals For
+1,1.0,2025-08-15,Home,Bournemouth,W,Win,goals_against,2.0,Goals Against
+2,2.0,2025-08-25,Away,Newcastle United,W,Win,goals_against,2.0,Goals Against
+3,3.0,2025-08-31,Home,Arsenal,W,Win,goals_against,0.0,Goals Against
+4,4.0,2025-09-14,Away,Burnley,W,Win,goals_against,0.0,Goals Against
+5,5.0,2025-09-20,Home,Everton,W,Win,goals_against,1.0,Goals Against
+6,6.0,2025-09-27,Away,Crystal Palace,L,Loss,goals_against,2.0,Goals Against
+7,7.0,2025-10-04,Away,Chelsea,L,Loss,goals_against,2.0,Goals Against
+8,8.0,2025-10-19,Home,Manchester Utd,L,Loss,goals_against,2.0,Goals Against
+9,9.0,2025-10-25,Away,Brentford,L,Loss,goals_against,3.0,Goals Against
+10,10.0,2025-11-01,Home,Aston Villa,W,Win,goals_against,0.0,Goals Against
+11,11.0,2025-11-09,Away,Manchester City,L,Loss,goals_against,3.0,Goals Against
+12,12.0,2025-11-22,Home,Nottingham Forest,L,Loss,goals_against,3.0,Goals Against
+13,13.0,2025-11-30,Away,West Ham United,W,Win,goals_against,0.0,Goals Against
+14,14.0,2025-12-03,Home,Sunderland,D,Draw,goals_against,1.0,Goals Against
+15,15.0,2025-12-06,Away,Leeds United,D,Draw,goals_against,3.0,Goals Against
+16,16.0,2025-12-13,Home,Brighton,W,Win,goals_against,0.0,Goals Against
+17,17.0,2025-12-20,Away,Tottenham Hotspur,W,Win,goals_against,1.0,Goals Against
+18,18.0,2025-12-27,Home,Wolves,W,Win,goals_against,1.0,Goals Against
+19,19.0,2026-01-01,Home,Leeds United,D,Draw,goals_against,0.0,Goals Against
+20,20.0,2026-01-04,Away,Fulham,D,Draw,goals_against,2.0,Goals Against
+21,21.0,2026-01-08,Away,Arsenal,D,Draw,goals_against,0.0,Goals Against
+22,22.0,2026-01-17,Home,Burnley,D,Draw,goals_against,1.0,Goals Against
+23,23.0,2026-01-24,Away,Bournemouth,L,Loss,goals_against,3.0,Goals Against
+24,24.0,2026-01-31,Home,Newcastle United,W,Win,goals_against,1.0,Goals Against
+25,25.0,2026-02-08,Home,Manchester City,L,Loss,goals_against,2.0,Goals Against
+26,26.0,2026-02-11,Away,Sunderland,W,Win,goals_against,0.0,Goals Against
+27,27.0,2026-02-22,Away,Nottingham Forest,W,Win,goals_against,0.0,Goals Against
+28,28.0,2026-02-28,Home,West Ham United,W,Win,goals_against,2.0,Goals Against
+29,29.0,2026-03-03,Away,Wolves,L,Loss,goals_against,2.0,Goals Against
+30,30.0,2026-03-15,Home,Tottenham Hotspur,D,Draw,goals_against,1.0,Goals Against
+31,31.0,2026-03-21,Away,Brighton,L,Loss,goals_against,2.0,Goals Against
+32,32.0,2026-04-11,Home,Fulham,W,Win,goals_against,0.0,Goals Against
+33,33.0,2026-04-19,Away,Everton,W,Win,goals_against,1.0,Goals Against
+34,34.0,2026-04-25,Home,Crystal Palace,W,Win,goals_against,1.0,Goals Against
+35,35.0,2026-05-03,Away,Manchester Utd,L,Loss,goals_against,3.0,Goals Against
+36,36.0,2026-05-09,Home,Chelsea,D,Draw,goals_against,1.0,Goals Against
+1,1.0,2025-08-15,Home,Bournemouth,W,Win,goal_diff,2.0,Goal Difference
+2,2.0,2025-08-25,Away,Newcastle United,W,Win,goal_diff,1.0,Goal Difference
+3,3.0,2025-08-31,Home,Arsenal,W,Win,goal_diff,1.0,Goal Difference
+4,4.0,2025-09-14,Away,Burnley,W,Win,goal_diff,1.0,Goal Difference
+5,5.0,2025-09-20,Home,Everton,W,Win,goal_diff,1.0,Goal Difference
+6,6.0,2025-09-27,Away,Crystal Palace,L,Loss,goal_diff,-1.0,Goal Difference
+7,7.0,2025-10-04,Away,Chelsea,L,Loss,goal_diff,-1.0,Goal Difference
+8,8.0,2025-10-19,Home,Manchester Utd,L,Loss,goal_diff,-1.0,Goal Difference
+9,9.0,2025-10-25,Away,Brentford,L,Loss,goal_diff,-1.0,Goal Difference
+10,10.0,2025-11-01,Home,Aston Villa,W,Win,goal_diff,2.0,Goal Difference
+11,11.0,2025-11-09,Away,Manchester City,L,Loss,goal_diff,-3.0,Goal Difference
+12,12.0,2025-11-22,Home,Nottingham Forest,L,Loss,goal_diff,-3.0,Goal Difference
+13,13.0,2025-11-30,Away,West Ham United,W,Win,goal_diff,2.0,Goal Difference
+14,14.0,2025-12-03,Home,Sunderland,D,Draw,goal_diff,0.0,Goal Difference
+15,15.0,2025-12-06,Away,Leeds United,D,Draw,goal_diff,0.0,Goal Difference
+16,16.0,2025-12-13,Home,Brighton,W,Win,goal_diff,2.0,Goal Difference
+17,17.0,2025-12-20,Away,Tottenham Hotspur,W,Win,goal_diff,1.0,Goal Difference
+18,18.0,2025-12-27,Home,Wolves,W,Win,goal_diff,1.0,Goal Difference
+19,19.0,2026-01-01,Home,Leeds United,D,Draw,goal_diff,0.0,Goal Difference
+20,20.0,2026-01-04,Away,Fulham,D,Draw,goal_diff,0.0,Goal Difference
+21,21.0,2026-01-08,Away,Arsenal,D,Draw,goal_diff,0.0,Goal Difference
+22,22.0,2026-01-17,Home,Burnley,D,Draw,goal_diff,0.0,Goal Difference
+23,23.0,2026-01-24,Away,Bournemouth,L,Loss,goal_diff,-1.0,Goal Difference
+24,24.0,2026-01-31,Home,Newcastle United,W,Win,goal_diff,3.0,Goal Difference
+25,25.0,2026-02-08,Home,Manchester City,L,Loss,goal_diff,-1.0,Goal Difference
+26,26.0,2026-02-11,Away,Sunderland,W,Win,goal_diff,1.0,Goal Difference
+27,27.0,2026-02-22,Away,Nottingham Forest,W,Win,goal_diff,1.0,Goal Difference
+28,28.0,2026-02-28,Home,West Ham United,W,Win,goal_diff,3.0,Goal Difference
+29,29.0,2026-03-03,Away,Wolves,L,Loss,goal_diff,-1.0,Goal Difference
+30,30.0,2026-03-15,Home,Tottenham Hotspur,D,Draw,goal_diff,0.0,Goal Difference
+31,31.0,2026-03-21,Away,Brighton,L,Loss,goal_diff,-1.0,Goal Difference
+32,32.0,2026-04-11,Home,Fulham,W,Win,goal_diff,2.0,Goal Difference
+33,33.0,2026-04-19,Away,Everton,W,Win,goal_diff,1.0,Goal Difference
+34,34.0,2026-04-25,Home,Crystal Palace,W,Win,goal_diff,2.0,Goal Difference
+35,35.0,2026-05-03,Away,Manchester Utd,L,Loss,goal_diff,-1.0,Goal Difference
+36,36.0,2026-05-09,Home,Chelsea,D,Draw,goal_diff,0.0,Goal Difference
+1,1.0,2025-08-15,Home,Bournemouth,W,Win,points,3.0,Points
+2,2.0,2025-08-25,Away,Newcastle United,W,Win,points,3.0,Points
+3,3.0,2025-08-31,Home,Arsenal,W,Win,points,3.0,Points
+4,4.0,2025-09-14,Away,Burnley,W,Win,points,3.0,Points
+5,5.0,2025-09-20,Home,Everton,W,Win,points,3.0,Points
+6,6.0,2025-09-27,Away,Crystal Palace,L,Loss,points,0.0,Points
+7,7.0,2025-10-04,Away,Chelsea,L,Loss,points,0.0,Points
+8,8.0,2025-10-19,Home,Manchester Utd,L,Loss,points,0.0,Points
+9,9.0,2025-10-25,Away,Brentford,L,Loss,points,0.0,Points
+10,10.0,2025-11-01,Home,Aston Villa,W,Win,points,3.0,Points
+11,11.0,2025-11-09,Away,Manchester City,L,Loss,points,0.0,Points
+12,12.0,2025-11-22,Home,Nottingham Forest,L,Loss,points,0.0,Points
+13,13.0,2025-11-30,Away,West Ham United,W,Win,points,3.0,Points
+14,14.0,2025-12-03,Home,Sunderland,D,Draw,points,1.0,Points
+15,15.0,2025-12-06,Away,Leeds United,D,Draw,points,1.0,Points
+16,16.0,2025-12-13,Home,Brighton,W,Win,points,3.0,Points
+17,17.0,2025-12-20,Away,Tottenham Hotspur,W,Win,points,3.0,Points
+18,18.0,2025-12-27,Home,Wolves,W,Win,points,3.0,Points
+19,19.0,2026-01-01,Home,Leeds United,D,Draw,points,1.0,Points
+20,20.0,2026-01-04,Away,Fulham,D,Draw,points,1.0,Points
+21,21.0,2026-01-08,Away,Arsenal,D,Draw,points,1.0,Points
+22,22.0,2026-01-17,Home,Burnley,D,Draw,points,1.0,Points
+23,23.0,2026-01-24,Away,Bournemouth,L,Loss,points,0.0,Points
+24,24.0,2026-01-31,Home,Newcastle United,W,Win,points,3.0,Points
+25,25.0,2026-02-08,Home,Manchester City,L,Loss,points,0.0,Points
+26,26.0,2026-02-11,Away,Sunderland,W,Win,points,3.0,Points
+27,27.0,2026-02-22,Away,Nottingham Forest,W,Win,points,3.0,Points
+28,28.0,2026-02-28,Home,West Ham United,W,Win,points,3.0,Points
+29,29.0,2026-03-03,Away,Wolves,L,Loss,points,0.0,Points
+30,30.0,2026-03-15,Home,Tottenham Hotspur,D,Draw,points,1.0,Points
+31,31.0,2026-03-21,Away,Brighton,L,Loss,points,0.0,Points
+32,32.0,2026-04-11,Home,Fulham,W,Win,points,3.0,Points
+33,33.0,2026-04-19,Away,Everton,W,Win,points,3.0,Points
+34,34.0,2026-04-25,Home,Crystal Palace,W,Win,points,3.0,Points
+35,35.0,2026-05-03,Away,Manchester Utd,L,Loss,points,0.0,Points
+36,36.0,2026-05-09,Home,Chelsea,D,Draw,points,1.0,Points
+1,1.0,2025-08-15,Home,Bournemouth,W,Win,possession,61.0,Possession
+2,2.0,2025-08-25,Away,Newcastle United,W,Win,possession,63.0,Possession
+3,3.0,2025-08-31,Home,Arsenal,W,Win,possession,53.0,Possession
+4,4.0,2025-09-14,Away,Burnley,W,Win,possession,81.0,Possession
+5,5.0,2025-09-20,Home,Everton,W,Win,possession,58.0,Possession
+6,6.0,2025-09-27,Away,Crystal Palace,L,Loss,possession,72.0,Possession
+7,7.0,2025-10-04,Away,Chelsea,L,Loss,possession,47.0,Possession
+8,8.0,2025-10-19,Home,Manchester Utd,L,Loss,possession,63.0,Possession
+9,9.0,2025-10-25,Away,Brentford,L,Loss,possession,66.0,Possession
+10,10.0,2025-11-01,Home,Aston Villa,W,Win,possession,54.0,Possession
+11,11.0,2025-11-09,Away,Manchester City,L,Loss,possession,51.0,Possession
+12,12.0,2025-11-22,Home,Nottingham Forest,L,Loss,possession,74.0,Possession
+13,13.0,2025-11-30,Away,West Ham United,W,Win,possession,56.0,Possession
+14,14.0,2025-12-03,Home,Sunderland,D,Draw,possession,68.0,Possession
+15,15.0,2025-12-06,Away,Leeds United,D,Draw,possession,55.0,Possession
+16,16.0,2025-12-13,Home,Brighton,W,Win,possession,50.0,Possession
+17,17.0,2025-12-20,Away,Tottenham Hotspur,W,Win,possession,65.0,Possession
+18,18.0,2025-12-27,Home,Wolves,W,Win,possession,67.0,Possession
+19,19.0,2026-01-01,Home,Leeds United,D,Draw,possession,69.0,Possession
+20,20.0,2026-01-04,Away,Fulham,D,Draw,possession,59.0,Possession
+21,21.0,2026-01-08,Away,Arsenal,D,Draw,possession,52.0,Possession
+22,22.0,2026-01-17,Home,Burnley,D,Draw,possession,73.0,Possession
+23,23.0,2026-01-24,Away,Bournemouth,L,Loss,possession,67.0,Possession
+24,24.0,2026-01-31,Home,Newcastle United,W,Win,possession,54.0,Possession
+25,25.0,2026-02-08,Home,Manchester City,L,Loss,possession,47.0,Possession
+26,26.0,2026-02-11,Away,Sunderland,W,Win,possession,56.0,Possession
+27,27.0,2026-02-22,Away,Nottingham Forest,W,Win,possession,53.0,Possession
+28,28.0,2026-02-28,Home,West Ham United,W,Win,possession,49.0,Possession
+29,29.0,2026-03-03,Away,Wolves,L,Loss,possession,66.0,Possession
+30,30.0,2026-03-15,Home,Tottenham Hotspur,D,Draw,possession,63.0,Possession
+31,31.0,2026-03-21,Away,Brighton,L,Loss,possession,54.0,Possession
+32,32.0,2026-04-11,Home,Fulham,W,Win,possession,53.0,Possession
+33,33.0,2026-04-19,Away,Everton,W,Win,possession,56.0,Possession
+34,34.0,2026-04-25,Home,Crystal Palace,W,Win,possession,53.0,Possession
+35,35.0,2026-05-03,Away,Manchester Utd,L,Loss,possession,62.0,Possession
+36,36.0,2026-05-09,Home,Chelsea,D,Draw,possession,49.0,Possession
