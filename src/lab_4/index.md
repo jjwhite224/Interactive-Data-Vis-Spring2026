@@ -794,48 +794,6 @@ display(Plot.plot({
   ]
 }));
 
-
-```
-```js
-// #region agent log
-fetch('http://127.0.0.1:7702/ingest/914d657f-3563-43ac-bed4-dd8a8bc270d9',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0a3a47'},body:JSON.stringify({sessionId:'0a3a47',runId:'initial',hypothesisId:'H4',location:'src/lab_4/index.md:754',message:'Bar chart labels may be too technical',data:{title:'Liverpool’s attacking width changed across the four case-study matches',xLabel:'Match',yLabel:'Attacking width',subtitle:'Width is calculated as the horizontal distance between the leftmost and rightmost attacker.'},timestamp:Date.now()})}).catch(()=>{});
-// #endregion
-
-display(Plot.plot({
-  title: "How spread out Liverpool’s front line was in each match",
-  subtitle: "Higher bars mean the leftmost and rightmost attackers were farther apart (using the same 0–100 pitch scale).",
-  width,
-  height: 360,
-  marginBottom: 58,
-  marginTop: 35,
-  x: {
-    label: "Match snapshot",
-    domain: shapeMetricsReadable.map(d => d.match_label),
-    tickRotate: -18
-  },
-  y: {
-    label: "Front-line spread (pitch units)",
-    grid: true
-  },
-  marks: [
-    Plot.barY(shapeMetricsReadable, {
-      x: "match_label",
-      y: "attacking_width",
-      fill: "#c1121f",
-      tip: true
-    }),
-    Plot.text(shapeMetricsReadable, {
-      x: "match_label",
-      y: "attacking_width",
-      text: d => d3.format(".1f")(d.attacking_width),
-      dy: -8,
-      fontSize: 11,
-      fill: "#2f2f2f"
-    }),
-
-    Plot.ruleY([0])
-  ]
-}));
 ```
 
 <div class="section-text">
