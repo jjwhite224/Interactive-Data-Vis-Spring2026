@@ -1,0 +1,52 @@
+phase,match,player_number,role,x,y
+Beginning,Arsenal,1,GK,50,12
+Beginning,Arsenal,4,CB,61,39
+Beginning,Arsenal,5,CB,38,39
+Beginning,Arsenal,6,LB,76,41
+Beginning,Arsenal,8,RB,19,46
+Beginning,Arsenal,38,DM,50,50
+Beginning,Arsenal,10,CM,63,53
+Beginning,Arsenal,7,AM,50,58
+Beginning,Arsenal,18,LW,80,63
+Beginning,Arsenal,22,ST,50,69
+Beginning,Arsenal,11,RW,15,67
+
+Middle,Crystal Palace,1,GK,50,88
+Middle,Crystal Palace,6,LB,14,41
+Middle,Crystal Palace,9,ST,42,40
+Middle,Crystal Palace,7,LW,50,36
+Middle,Crystal Palace,10,CM,38,51
+Middle,Crystal Palace,38,DM,58,50
+Middle,Crystal Palace,8,CM,69,47
+Middle,Crystal Palace,12,RB,88,47
+Middle,Crystal Palace,4,CB,35,61
+Middle,Crystal Palace,5,CB,62,58
+Middle,Crystal Palace,11,RW,79,28
+
+
+End,Tottenham,1,GK,50,88
+End,Tottenham,6,LB,14,40
+End,Tottenham,7,LW,29,46
+End,Tottenham,17,CM,39,51
+End,Tottenham,10,AM,47,43
+End,Tottenham,22,ST,50,35
+End,Tottenham,38,CM,50,52
+End,Tottenham,8,CM,71,42
+End,Tottenham,12,RB,91,50
+End,Tottenham,4,CB,33,58
+End,Tottenham,5,CB,70,65
+
+
+Middle,Manchester United,28,GK,50,88
+Middle,Manchester United,26,LB,22,50
+Middle,Manchester United,18,LW,36,40
+Middle,Manchester United,7,AM,50,40
+Middle,Manchester United,10,CM,42,49
+Middle,Manchester United,38,CM,60,50
+Middle,Manchester United,8,CM,67,46
+Middle,Manchester United,17,RB,79,53
+Middle,Manchester United,4,CB,35,61
+Middle,Manchester United,5,CB,62,59
+Middle,Manchester United,30,RW,84,31
+
+

@@ -12,6 +12,7 @@ Across the season, Liverpool often looked like a team trying to solve instabilit
 The central question is: **did Slot’s Liverpool find a new core after the Salah–Trent era, or did the search for control expose how unstable the system had become?**
 
 ```js
+const avgPositions = await FileAttachment("data/liverpool_average_positions.csv").csv({ typed: true });
 const matches = await FileAttachment("data/liverpool_matches_completed.csv").csv({ typed: true });
 const matchMetrics = await FileAttachment("data/liverpool_match_metrics_long.csv").csv({ typed: true });
 const players = await FileAttachment("data/liverpool_players.csv").csv({ typed: true });
@@ -648,7 +649,200 @@ display(Plot.plot({
   ]
 }));
 ```
-## 5. The attack spread out, but never became a hierarchy
+## 5. Four shapes of instability
+
+<div class="section-text">
+To make the structural argument more concrete, I turned four SofaScore average-position maps into a small positional dataset. Each player location was normalized onto a 0–100 pitch grid, making it possible to compare Liverpool’s shape across different moments of the season. Arsenal represents early control, Crystal Palace shows the first rupture after Ekitike’s suspension pushed Isak into the structure, Tottenham shows the adjustment phase, and Manchester United shows a depleted side that could still form a coherent shape without turning that shape into a win.
+</div>
+
+```js
+const shapeMatchLabels = new Map([
+  ["Arsenal", "Arsenal (early control)"],
+  ["Crystal Palace", "Crystal Palace (first break)"],
+  ["Manchester United", "Manchester United (depleted but coherent)"],
+   ["Tottenham", "Tottenham (adjustment phase)"]
+]);
+const section5MatchOrder = ["Arsenal", "Crystal Palace", "Tottenham", "Manchester United"];
+const section5RoleOrder = ["GK", "CB", "LB", "RB", "DM", "CM", "AM", "LW", "ST", "RW"];
+const section5RoleColors = new Map([
+  ["GK", "#7b61ff"],
+  ["CB", "#1f77b4"],
+  ["LB", "#17becf"],
+  ["RB", "#2ca02c"],
+  ["DM", "#bcbd22"],
+  ["CM", "#ff7f0e"],
+  ["AM", "#d62728"],
+  ["LW", "#e377c2"],
+  ["ST", "#8c564b"],
+  ["RW", "#9467bd"]
+]);
+const section5AvgPositions = avgPositions.filter(d => shapeMatchLabels.has(d.match));
+const shapeMetrics = Array.from(
+  d3.group(section5AvgPositions, d => d.match),
+  ([match, rows]) => {
+    const attackers = rows.filter(d => ["LW", "ST", "RW"].includes(d.role));
+    const midfielders = rows.filter(d => ["DM", "CM", "AM"].includes(d.role));
+
+    return {
+      match,
+      attacking_width: d3.max(attackers, d => d.x) - d3.min(attackers, d => d.x),
+      midfield_width: d3.max(midfielders, d => d.x) - d3.min(midfielders, d => d.x),
+      avg_team_depth: d3.mean(rows, d => d.y)
+    };
+  }
+);
+const shapeMetricsReadable = shapeMetrics.map(d => ({
+  ...d,
+  match_label: shapeMatchLabels.get(d.match) ?? d.match
+})).sort((a, b) => section5MatchOrder.indexOf(a.match) - section5MatchOrder.indexOf(b.match));
+
+const pitchLines = [
+  [[0, 0], [100, 0]],
+  [[100, 0], [100, 100]],
+  [[100, 100], [0, 100]],
+  [[0, 100], [0, 0]],
+  [[50, 0], [50, 100]],
+  [[0, 18], [18, 18]],
+  [[18, 18], [18, 82]],
+  [[18, 82], [0, 82]],
+  [[100, 18], [82, 18]],
+  [[82, 18], [82, 82]],
+  [[82, 82], [100, 82]]
+].flatMap((line, i) => [
+  { line: i, x: line[0][0], y: line[0][1] },
+  { line: i, x: line[1][0], y: line[1][1] }
+]);
+// Rotate the pitch so goal lines appear at the top/bottom of each facet.
+// In this dataset, x behaves like pitch length; mapping it to the vertical axis
+// places goals at y=0 and y=100 (top and bottom in our flipped y-domain).
+const pitchLinesRotated = pitchLines.map(d => ({ ...d, x_rot: d.y, y_rot: d.x }));
+
+
+display(Plot.plot({
+  title: "Liverpool’s shape across four tactical moments",
+  subtitle: "Average positions on a 0–100 pitch grid. Bigger facet spacing and clearer pitch lines make the four shapes easier to compare.",
+  width,
+  height: 760,
+  marginLeft: 10,
+  marginRight: 10,
+  marginTop: 48,
+  marginBottom: 28,
+  inset: 8,
+  aspectRatio: 1,
+  style: "overflow: visible;",
+  facet: {
+    data: section5AvgPositions,
+    x: "match",
+    marginRight: 18,
+    marginTop: 20
+  },
+  fx: {
+    domain: section5MatchOrder,
+    label: null
+  },
+  x: {
+    domain: [0, 100],
+    axis: null
+  },
+  y: {
+    domain: [100, 0],
+    axis: null
+  },
+  color: {
+    domain: section5RoleOrder,
+    range: section5RoleOrder.map(role => section5RoleColors.get(role)),
+    label: "Role",
+    legend: true
+  },
+  marks: [
+    Plot.line(pitchLinesRotated, {
+      x: "x_rot",
+      y: "y_rot",
+      z: "line",
+      stroke: "#a8adb3",
+      strokeWidth: 1.8,
+      strokeOpacity: 0.95
+    }),
+
+    Plot.dot(section5AvgPositions, {
+      x: "x",
+      y: "y",
+      fill: "role",
+      r: 8.5,
+      stroke: "white",
+      strokeWidth: 1.5,
+      tip: true,
+      channels: {
+        Match: "match",
+        Phase: "phase",
+        Role: "role",
+        Number: "player_number",
+        X: "x",
+        Y: "y"
+      }
+    }),
+
+    Plot.text(section5AvgPositions, {
+      x: "x",
+      y: "y",
+      text: "player_number",
+      fill: "white",
+      fontWeight: "bold",
+      fontSize: 8.5,
+      dy: 3
+    })
+  ]
+}));
+
+
+```
+```js
+// #region agent log
+fetch('http://127.0.0.1:7702/ingest/914d657f-3563-43ac-bed4-dd8a8bc270d9',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'0a3a47'},body:JSON.stringify({sessionId:'0a3a47',runId:'initial',hypothesisId:'H4',location:'src/lab_4/index.md:754',message:'Bar chart labels may be too technical',data:{title:'Liverpool’s attacking width changed across the four case-study matches',xLabel:'Match',yLabel:'Attacking width',subtitle:'Width is calculated as the horizontal distance between the leftmost and rightmost attacker.'},timestamp:Date.now()})}).catch(()=>{});
+// #endregion
+
+display(Plot.plot({
+  title: "How spread out Liverpool’s front line was in each match",
+  subtitle: "Higher bars mean the leftmost and rightmost attackers were farther apart (using the same 0–100 pitch scale).",
+  width,
+  height: 360,
+  marginBottom: 58,
+  marginTop: 35,
+  x: {
+    label: "Match snapshot",
+    domain: shapeMetricsReadable.map(d => d.match_label),
+    tickRotate: -18
+  },
+  y: {
+    label: "Front-line spread (pitch units)",
+    grid: true
+  },
+  marks: [
+    Plot.barY(shapeMetricsReadable, {
+      x: "match_label",
+      y: "attacking_width",
+      fill: "#c1121f",
+      tip: true
+    }),
+    Plot.text(shapeMetricsReadable, {
+      x: "match_label",
+      y: "attacking_width",
+      text: d => d3.format(".1f")(d.attacking_width),
+      dy: -8,
+      fontSize: 11,
+      fill: "#2f2f2f"
+    }),
+
+    Plot.ruleY([0])
+  ]
+}));
+```
+
+<div class="section-text">
+The four shapes show the tactical story more clearly than the results alone. Against Arsenal, Liverpool’s structure appears balanced: the midfield connects the back line to the front three, and the attack has width on both sides. Against Crystal Palace, the structure becomes less settled, with the attack pulled toward a different reference point after the forced Isak switch. Tottenham shows Slot trying to rebuild connections around the new shape, while Manchester United complicates the story: even with a depleted squad, Liverpool could still create a coherent structure, but coherence on the map did not guarantee control in the match.
+</div>
+
+## 6. The attack spread out, but never became a hierarchy
 
 ```js
 const attackingXgPlayers = playersWithXg
@@ -774,7 +968,7 @@ display(Plot.plot({
 */
 ```
 
-## 6. The missing core: who progressed control and who protected it?
+## 7. The missing core: who progressed control and who protected it?
 
 <div class="section-text">
 The Opta data makes the control problem clearer. Control is not just possession. It is progression, recovery, and protection. A team needs players who can advance the ball, win it back, and stop attacks from becoming dangerous. Liverpool had players who could do each of those things, but the responsibilities were scattered. The players who moved Liverpool forward were not always the same players who protected transitions or stabilized the midfield. That separation made control harder to repeat from match to match.
@@ -1026,7 +1220,7 @@ Liverpool did not settle into a rhythm, did not consistently protect matches awa
 
 ## Data note
 
-This dashboard uses cleaned FBref match-log and player-stat data alongside Opta Analyst player-level passing/carrying and defending data. The FBref match table supports result, venue, possession, formation, and scoring analysis. The Opta tables add deeper player-level context around progression, possession wins, duels, blocks, clearances, and carries that ended in attacking actions. Because these sources use different units, several player charts convert totals to per-90 rates or normalize values within each metric.
+This dashboard uses cleaned FBref match-log and player-stat data alongside Opta Analyst player-level passing/carrying and defending data. The FBref match table supports result, venue, possession, formation, and scoring analysis. The Opta tables add deeper player-level context around progression, possession wins, duels, blocks, clearances, and carries that ended in attacking actions. Because these sources use different units, several player charts convert totals to per-90 rates or normalize values within each metric.The average-position chart uses a derived dataset built from SofaScore match maps. Player coordinates were manually estimated and normalized onto a 0–100 pitch grid. Because the source maps are visual summaries rather than raw tracking data, this chart should be read as a tactical comparison rather than exact positional measurement.
 
 ## Conclusion
 
