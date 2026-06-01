@@ -72,7 +72,8 @@ display(biggerData)
 ```
 
 Now let's plot the same with scales, and annotate one of the circles so we can confirm: 
-```js
+
+```js echo
   const svg = d3.create("svg")
     .style("border", "1px solid black")
     .attr("width", 100)
@@ -163,7 +164,7 @@ Inputs.table(alphabet)
 
 We only had a band scale, which helps us size in the x direction. Let's expand this to also size in the y direction with a linear scale. 
 
-```js
+```js echo
 const svg = d3.create("svg")
     .style("border", "1px solid black")
     .attr("width", 400)
@@ -290,7 +291,7 @@ const linedata = [
 ];
 ```
 
-```js
+```js echo
 const width = 400;
 const height = 180;
 const margin = { top: 12, right: 20, bottom: 32, left: 32 };
